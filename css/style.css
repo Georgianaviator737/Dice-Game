@@ -57,3 +57,13 @@ button:hover {
     background-color: #9c060c;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+    img{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
