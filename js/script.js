@@ -14,9 +14,9 @@ playButton.addEventListener('click', function() {
     image2.src = diceImages[randomIndex2];
 
 
-    if (randomIndex1 + 1 > randomIndex2 + 1) {
+    if (randomIndex1 > randomIndex2) {
         winnerDisplay.innerHTML = '<strong>Player 1 wins!</strong>';
-    } else if (randomIndex1 + 1 < randomIndex2 + 1) {
+    } else if (randomIndex1 < randomIndex2) {
         winnerDisplay.innerHTML = '<strong>Player 2 wins!</strong>';
     } else {
         winnerDisplay.innerHTML = '<strong>It\'s a tie!</strong>';
